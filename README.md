@@ -1,2 +1,2 @@
-# destruame_landing
-Landing page for project Destrui-me
+# Destrua.Me
+Landing page for project Destrui.Me
