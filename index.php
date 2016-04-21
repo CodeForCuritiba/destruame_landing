@@ -19,7 +19,7 @@
 
 <div class="content">
 	<p id="large-text">Reconstrua seus conceitos.</p>
-	<p id="small-text">Lançamento em Maio. Se inscreva para notícias.</p>
+	<p id="small-text">Lançamento em Maio. Inscreve-se para notícias.</p>
 </div>
 
 
