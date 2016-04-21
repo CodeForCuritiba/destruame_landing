@@ -24,8 +24,28 @@
 
 
 <div class="form">
-	<div class="field"><input type="text" class="field" id="test" value="email"/></div>
-	<div class="submit"><input class="submit" type="button" value="Inscreve-se" /></div>		
+
+      <form action="http://thde.us13.list-manage.com/subscribe/post?u=91b41b6c132982f2619c15a9f&amp;id=3642d929d5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+      <!-- Custom line -->
+        <div class="field"><input type="text" class="field" id="test" name='email' value="email"/></div>
+      <!-- end custom line -->
+
+        <div id="mc_embed_signup_scroll">
+    
+          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;" aria-hidden="true">
+            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+            <input type="text" name="b_91b41b6c132982f2619c15a9f_3642d929d5" tabindex="-1" value="">
+          </div>
+        </div>
+
+        <div class="clear submit">
+          <input type="submit" value="Inscreve-se" name="subscribe" id="mc-embedded-subscribe" class="button">
+        </div>
+
+        </form>
+
 </div>		
 
 
@@ -51,6 +71,10 @@ $("#test").keydown(function() {
     if (this.value == '') {
         this.value = placeholder;
     }
+});
+
+$("#test").change(function() {
+    $('#mce-EMAIL').val(this.value);
 });
 </script>
 
